@@ -11,7 +11,7 @@ import SwiftUI
 struct RGBGuessGameApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(guess: RGB(red: 0.3,green: 0.2,blue: 0.3))
         }
     }
 }
